@@ -1,7 +1,7 @@
 #include <iostream>
 #include "TelCoColorCoder.hpp"
 #include "ColorCoder_TestFunctions.hpp"
-#include "Get_ColorPair_nums.hpp"
+#include "Get_ColorPair_numbers.hpp"
 
 namespace TelCoColorCoder
 {
