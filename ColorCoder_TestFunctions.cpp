@@ -3,7 +3,7 @@
 #include "TelCoColorCoder.hpp"
 #include "Get_ColorPair_nums.hpp"
 
-TelCoColorCoder::ColorPair GetColorFromPairNumber(int pairNumber) {
+TelCoColorCoder::ColorPair TelCoColorCoder::GetColorFromPairNumber(int pairNumber) {
     int zeroBasedPairNumber = pairNumber - 1;
     TelCoColorCoder::MajorColor majorColor = 
         (TelCoColorCoder::MajorColor)(zeroBasedPairNumber / TelCoColorCoder::numberOfMinorColors);
@@ -12,7 +12,7 @@ TelCoColorCoder::ColorPair GetColorFromPairNumber(int pairNumber) {
     return TelCoColorCoder::ColorPair(majorColor, minorColor);
 }
 
-int GetPairNumberFromColor(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorColor minor) {
+int TelCoColorCoder::GetPairNumberFromColor(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorColor minor) {
     return major * TelCoColorCoder::numberOfMinorColors + minor + 1;
 }
 
