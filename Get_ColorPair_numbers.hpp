@@ -31,18 +31,9 @@ namespace TelCoColorCoder
             }
     };
 
-    ColorPair GetColorFromPairNumber(int pairNumber) {
-    int zeroBasedPairNumber = pairNumber - 1;
-    MajorColor majorColor = 
-        (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
-    MinorColor minorColor =
-        (MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
-    return ColorPair(majorColor, minorColor);
-    }
+    ColorPair GetColorFromPairNumber(int pairNumber);
 
-    int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
-        return major * numberOfMinorColors + minor + 1;
-    }
+    int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 
 }
 
