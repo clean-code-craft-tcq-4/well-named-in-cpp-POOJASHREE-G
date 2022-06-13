@@ -1,6 +1,6 @@
 #include <iostream>
 #include "TelCoColorCoder.hpp"
-#include "ColorCoder_TestFunctions.cpp"
+#include "ColorCoder_TestFunctions.hpp"
 #include "Get_ColorPair_nums.hpp"
 
 int main() {
