@@ -1,6 +1,7 @@
 #include <iostream>
 #include "TelCoColorCoder.hpp"
 #include "ColorCoder_TestFunctions.cpp"
+#include "Get_ColorPair_nums.hpp"
 
 int main() {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
