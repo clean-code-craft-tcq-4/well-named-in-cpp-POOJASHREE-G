@@ -1,7 +1,7 @@
 #ifndef COLORCODER_TESTFUNCTIONS_H
 #define COLORCODER_TESTFUNCTIONS_H
 
-#include "TelCoColorCoder.hpp"
+#include "Get_ColorPair_nums.hpp"
 
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,

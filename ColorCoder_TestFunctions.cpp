@@ -1,7 +1,6 @@
 #include <iostream>
 #include <assert.h>
 #include "ColorCoder_TestFunctions.hpp"
-#include "Get_ColorPair_nums.hpp"
 
 TelCoColorCoder::ColorPair TelCoColorCoder::GetColorFromPairNumber(int pairNumber) {
     int zeroBasedPairNumber = pairNumber - 1;
