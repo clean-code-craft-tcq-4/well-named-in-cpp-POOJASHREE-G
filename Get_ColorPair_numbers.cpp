@@ -17,7 +17,7 @@ int TelCoColorCoder::GetPairNumberFromColor(TelCoColorCoder::MajorColor major, T
 }
 
 void TelCoColorCoder::PrintReferenceManual() {
-    cout << "********25-pair color code********" << endl;
+    cout << "***********25-pair color code***********" << endl;
 
     cout
         << left << setw(15) << "Pair no."
