@@ -25,5 +25,7 @@ int main() {
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
+    TelCoColorCoder::PrintReferenceManual();
+
     return 0;
 }
