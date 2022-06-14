@@ -31,16 +31,9 @@ void TelCoColorCoder::PrintReferenceManual() {
         << "Minor color "
         << endl;
 
-
-    int i = 0;
-    while (i <= 25) {
-        ++i;
         for (int j = 0; j < 5; j++) {
             for (int n = 0; n < 5; n++) {
                 cout
-                    << left
-                    << setw(15)
-                    << i
                     << left
                     << setw(15)
                     << MajorColorNames[j]
@@ -50,6 +43,4 @@ void TelCoColorCoder::PrintReferenceManual() {
                     << endl;
             }
         }
-    }
-
 }
