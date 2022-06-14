@@ -46,3 +46,5 @@ void TelCoColorCoder::PrintReferenceManual() {
                 << endl;
         }
     }
+
+}
