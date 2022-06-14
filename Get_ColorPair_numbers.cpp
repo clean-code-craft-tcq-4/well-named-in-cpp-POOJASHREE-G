@@ -36,5 +36,20 @@ void TelCoColorCoder::PrintReferenceManual() {
                 << left << setw(15) << MinorColorNames[n]
                 << endl;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     }
 }
